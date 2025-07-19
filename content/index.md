@@ -1,6 +1,7 @@
 ---
-title: Welcome to Quartz
+title: Garrett's writeups
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+This site contains a collection of writeups on various topics, including but not limited to homelabbing, cybersecurity, and beekeeping. 
+
+Check the left side of your screen for an index of my written content.
