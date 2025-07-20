@@ -71,7 +71,7 @@ When the scan is completed, you'll see an output that looks something like the s
 
 In this example, you can see that I have three duplicate files of varying sizes. Now I can either remove the files manually through the terminal or use the "Delete" button in the Czkawka UI to remove the duplicates through the application. You can also use Czkawka to deduplicate files by creating symlinks or hardlinks for duplicate files, if you prefer. Though for my use case, deleting the duplicates accomplished my goal of reclaiming disk space on my array.
 
-Czkawa also supports various other file analysis functions that you can use to find files and folders of interest, such as:
+Czkawka also supports various other file analysis functions that you can use to find files and folders of interest, such as:
 
 - Empty directories
 - Big files, empty files, and temporary files
