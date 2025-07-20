@@ -1,5 +1,5 @@
 ---
-title: Garrett's writeups
+title: Welcome
 ---
 
 This site contains a collection of writeups on various topics, including but not limited to my homelab, cybersecurity, and beekeeping.

@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Garrett's writeups",
+    pageTitle: "Garrett Laman",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "garrettlaman.github.io",
+    baseUrl: "www.garrettlaman.com",
     ignorePatterns: ["private", "_templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
