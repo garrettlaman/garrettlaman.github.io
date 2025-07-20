@@ -10,25 +10,4 @@ Check the left side of your screen for an index of my written content.
 
 Connect with me on [LinkedIn](https://www.linkedin.com/in/garrett-laman/)
 
-mailto: contact@garrettlaman.com
-
-PGP key below
-
-```
------BEGIN PGP PUBLIC KEY BLOCK-----
-xjMEaE9gFBYJKwYBBAHaRw8BAQdAWvXGLoXFDmowD7jSlElI2GsrJgkd0Akj
-X32FNXvVmOXNM2NvbnRhY3RAZ2FycmV0dGxhbWFuLmNvbSA8Y29udGFjdEBn
-YXJyZXR0bGFtYW4uY29tPsLAEQQTFgoAgwWCaE9gFAMLCQcJkApj2Ii4fa4I
-RRQAAAAAABwAIHNhbHRAbm90YXRpb25zLm9wZW5wZ3Bqcy5vcmdUOhYpVhLL
-y6SUZYkBb3FsTPlCcPOWJ7+x6+g0NzuqJAMVCggEFgACAQIZAQKbAwIeARYh
-BA4oJEijZw1JCz4UjQpj2Ii4fa4IAAD5ZwD9FiPnZMULCNCh2+SeCSgDmVNu
-L0JtuFScqQinyIidAgsBAKOLvb6JuOLIjfsfZ5zeDmoReLW8VDAo2Ez8xzjZ
-/50GzjgEaE9gFBIKKwYBBAGXVQEFAQEHQJL3SVp1AzcElXJLT5phY8TDYiLJ
-ofh4mtEtuui0J80xAwEIB8K+BBgWCgBwBYJoT2AUCZAKY9iIuH2uCEUUAAAA
-AAAcACBzYWx0QG5vdGF0aW9ucy5vcGVucGdwanMub3JngpG5WA8HT+2BN9Zc
-gLsAd6XE3FFGQmvsVgZ6jPYZigACmwwWIQQOKCRIo2cNSQs+FI0KY9iIuH2u
-CAAATCwBANIBvuQaOGoE/sVlesr3acte5xK/gwj5zeGMJY+pCjVnAP0RIkpP
-gGOtl0H1cB3SYvg2Y+mvo7XZelFsT8VVyvArBQ==
-=G6R2
------END PGP PUBLIC KEY BLOCK-----
-```
+mailto: contact@garrettlaman.com, PGP pubkey [here](publickey.contact@garrettlaman.com.asc)
