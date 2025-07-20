@@ -14,7 +14,9 @@ There isn't a great way to do this natively within Unraid. I figured this had to
 
 ## What is Czkawka?
 
-The [project's GitHub README](https://github.com/qarmin/czkawka) does a pretty good job of describing the software: *Czkawka is a simple, fast and free app to remove unnecessary files from your computer.* One thing I noticed right away is that it's GUI based, a development choice which might rustle some feathers, but I figured I'd give it a shot anyway. Read on below for a walkthrough of how I deployed this in Unraid and used it to find duplicate files in my array.
+The [project's GitHub README](https://github.com/qarmin/czkawka) does a pretty good job of describing the software: *Czkawka is a simple, fast and free app to remove unnecessary files from your computer.* Most importantly to me, it provides a simple implementation of a file scanner that can enumerate all files in a given directory, compute their hashes, and find duplicate files. 
+
+One thing I noticed right away is that it's GUI based, a development choice which might ruffle some feathers, but I figured I'd give it a shot anyway. Read on below for a walkthrough of how I deployed this in Unraid and used it to find duplicate files in my array.
 
 ## Deploying Czkawka
 
