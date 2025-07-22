@@ -12,7 +12,7 @@ The condensing hive concept has taken off in the past year or so, and for good r
 
 Instead of explaining all of the benefits of condensing hives here, I recommend watching [this excellent video from Peggy DeSanto](https://www.youtube.com/watch?v=tVSzRmnNcJ8) if you're interested in learning why condensing hives work.
 
-The basic idea behind a condensing hive is that it closely mimics a wild colony's natural thermal characteristics. Langstroth hives are very unnatural in that they have minimal top insulation - this lack of ventilation allows a colony's heat (and energy) to escape. Even worse, when we add ventilation holes to the hive, we further increase the rate of heat loss and send precious water out of the hive.
+The basic idea behind a condensing hive is that it closely mimics a wild colony's natural thermal characteristics. Langstroth hives are very unnatural in that they have minimal top insulation - this lack of insulation allows a colony's heat (and energy) to rapidly escape the hive. Even worse, when we add ventilation holes to the hive, we further increase the rate of heat loss and also send precious water out of the hive.
 
 Condensing hives offer a solution to these problems - if we heavily insulate the top of the hive, and insulate the sides to a lesser extent, we can trap the colony's heat thereby reducing the amount of energy they need to expend to overwinter. Condensation collects around the sides of the inner cover, not directly over the cluster, so there isn't any concern of cold water dripping and freezing bees. 
 
