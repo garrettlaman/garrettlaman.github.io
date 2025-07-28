@@ -3,7 +3,7 @@ title: Welcome
 description: A site about tech, cybersecurity, and stinging insects
 ---
 
-This site contains a collection of writeups on various topics, including but not limited to my homelab, cybersecurity, and beekeeping.
+This site contains a collection of writeups on my homelab, cybersecurity, and small stinging insects 🐝
 
 Check the left side of your screen for an index of my written content.
 

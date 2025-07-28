@@ -3,23 +3,23 @@ title: Building highly insulated condensing hives on the cheap
 description: How I learned to stop worrying and love condensation in my beehives
 tags: [beekeeping, condensing-hives]
 published: 2025-07-21
-modified:
+modified: 2025-07-27
 ---
 
-The condensing hive concept has taken off in the past year or so, and for good reason. Since I switched to condensing hives in my apiary, I've seen a 100% overwinter rate across my colonies. Leveraging condensing hives is a fantastic way to increase overwintering success rates and increase the strength of overwintered colonies. 
+The condensing hive concept has taken off in the past year or so, and for good reason. Since I switched to condensing hives in my apiary, I've seen a 100% overwinter rate across my colonies. Leveraging condensing hives is a fantastic way to increase overwintering success rates and bolster the strength of overwintered colonies. 
 
 ## Intro to condensing hives
 
 Instead of explaining all of the benefits of condensing hives here, I recommend watching [this excellent video from Peggy DeSanto](https://www.youtube.com/watch?v=tVSzRmnNcJ8) if you're interested in learning why condensing hives work.
 
-The basic idea behind a condensing hive is that it closely mimics a wild colony's natural thermal characteristics. Langstroth hives are very unnatural in that they have minimal top insulation - this lack of insulation allows a colony's heat (and energy) to rapidly escape the hive. Even worse, when we add ventilation holes to the hive, we further increase the rate of heat loss and also send precious water out of the hive.
+The basic idea behind a condensing hive is that it closely mimics a wild colony's natural thermal characteristics. Langstroth hives are very unnatural in that they have minimal top insulation. This lack of insulation allows a colony's heat (and energy) to rapidly escape the hive in the winter. Even worse, when upper ventilation holes are added to a hive, we further increase the rate of heat loss and also prevent the colony from retaining precious water.
 
-Condensing hives offer a solution to these problems - if we heavily insulate the top of the hive, and insulate the sides to a lesser extent, we can trap the colony's heat thereby reducing the amount of energy they need to expend to overwinter. Condensation collects around the sides of the inner cover, not directly over the cluster, so there isn't any concern of cold water dripping and freezing bees. 
+Condensing hives offer a solution to these problems - if we heavily insulate the top of the hive, and insulate the sides to a lesser extent, we can trap the colony's heat thereby reducing the amount of energy they need to expend to overwinter. The lack of upper ventilation holes prevents heat and water from leaving the hive. With insulation at the top of the hive, condensation collects around the sides of the inner cover (around the less-insulated side walls), not directly over the cluster, so there isn't any concern of cold water dripping on bees.
 
 tl;dr, condensing hives have:
 
-- No upper ventilation holes. Water is collected around the sides of the inner cover for re-use within by the colony, not expelled from the hive.
-- Extreme insulation at the top of the hive to retain heat and reduce energy consumption, with moderate insulation around the sides.
+-  Extreme insulation at the top of the hive to retain heat and reduce energy consumption, with moderate insulation around the sides.
+- No upper ventilation holes. Water is collected around the sides of the inner cover for re-use within the colony, not expelled from the hive.
 
 ## How can I make a condensing hive?
 
