@@ -1,9 +1,13 @@
 ---
 title: Using czkawka to find duplicate files in an Unraid array
 description: Reclaim storage space using a containerized file analysis tool 
-tags: [homelab, unraid, docker, guide]
+tags:
+  - homelab
+  - unraid
+  - docker
+  - how-to
 published: 2025-07-19
-modified:
+modified: 2025-07-27
 ---
 
 [Unraid](https://unraid.net/) has been a critical piece of storage infrastructure in my homelab for some time now. I mainly use it for Proxmox backups and personal file storage.
