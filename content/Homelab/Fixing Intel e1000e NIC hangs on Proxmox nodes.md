@@ -59,7 +59,7 @@ Many reports suggested that disabling packet offloading features can prevent the
 ethtool -K eno1 gso off gro off tso off tx off rx off rxvlan off txvlan off
 ```
 
-After this, the interface remained stable. Disabling these features shifts work from the NIC back to the CPU, but at gigabit speeds on a modern CPU the performance impact is negligible for my homelab's workload.
+After this, the interface remained stable. Disabling these features shifts work from the NIC back to the CPU, but at gigabit speeds on a modern CPU (in my case, an i5-9500) the performance impact is negligible for my homelab's workload.
 
 ---
 
