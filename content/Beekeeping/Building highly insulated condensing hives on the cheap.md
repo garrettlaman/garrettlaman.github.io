@@ -4,7 +4,7 @@ description: How I learned to stop worrying and love condensation in my beehives
 tags:
   - beekeeping
   - condensing-hives
-published: 2025-07-21
+created: 2025-07-21
 modified: 2025-07-27
 ---
 
