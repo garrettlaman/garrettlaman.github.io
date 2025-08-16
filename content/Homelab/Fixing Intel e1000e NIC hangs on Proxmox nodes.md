@@ -11,7 +11,6 @@ created: 2025-08-16
 modified: 2025-08-16
 ---
 
-
 While running my Proxmox 9 cluster, I ran into an issue where one of my nodes would randomly drop off the network. The host wouldn’t respond to pings, SSH, or the web UI, and I had to go out-of-band to see what was going on. After digging into the logs, I found repeated errors from the Intel `e1000e` driver:
 
 ```
