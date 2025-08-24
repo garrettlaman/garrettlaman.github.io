@@ -184,8 +184,8 @@ CF_ZONE_API_TOKEN=…
 This was my first time creating a Cloudflare API token, but I was pleasently surprised with how easy the process was. Here are the steps I took:
 
 1. Logged into [dash.cloudflare.com](dash.cloudflare.com) and went to Manage Account -> Account API tokens -> Create Token.
-2. Create a new token using the "Edit zone DNS" template.
-3. Add a permission to read Zones, and switch the Zone Resources to "All zones from an account" (needed because Cloudflare seems to treat subdomains as a separate zone)
+2. Created a new token using the "Edit zone DNS" template.
+3. Added a permission to read Zones, and switched the Zone Resources to "All zones from an account" (needed because Cloudflare seems to treat subdomains as a separate zone).
 4. I also chose to populate the Client IP Address Filtering field, so that my token can only be used from my static external IP address.
 
 After that, Cloudflare spat out an API token which I securely saved in my password manager and entered into the `.env` file on my Traefik LXC.
