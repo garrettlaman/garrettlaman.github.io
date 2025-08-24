@@ -5,9 +5,9 @@ description: Cybersecurity Engineer with a passion for security automation, home
 
 ## 👋 Hi, I'm Garrett
 
-I’m a Cybersecurity Engineer who’s spent the past 6+ years keeping enterprise systems safe, rolling out security tools, and engineering solutions to keep businesses out of the headlines. Along the way I’ve worked on everything from SIEMs and EDRs to firewalls and automation scripts, always looking for ways to make security smarter and less of a headache. I like solving messy problems, building systems that actually work for people, and sharing what I learn in my homelab experiments.
+I’m a Cybersecurity Engineer who’s spent the past 6+ years keeping enterprise systems safe, rolling out security tools, and engineering solutions to keep businesses out of the headlines. 
 
-I enjoy building in my homelab - experimenting with Kubernetes, Docker, Proxmox, and firewalls - and sharing what I learn along the way.  
+Along the way I’ve worked on everything from SIEMs and EDRs to firewalls and automation scripts, always looking for ways to make security smarter and less of a headache. I like solving messy problems, building systems that actually work for people, and sharing what I learn in my homelab experiments.
 
 When I'm not diving into security or automation, I keep bees 🐝 and maintain a small apiary.
 
