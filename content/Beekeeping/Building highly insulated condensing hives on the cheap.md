@@ -10,6 +10,8 @@ modified: 2025-07-27
 
 The condensing hive concept has taken off in the past year or so, and for good reason. Since I switched to condensing hives in my apiary, I've seen a 100% overwinter rate across my colonies. Leveraging condensing hives is a fantastic way to increase overwintering success rates and bolster the strength of overwintered colonies. 
 
+---
+
 ## Intro to condensing hives
 
 Instead of explaining all of the benefits of condensing hives here, I recommend watching [this excellent video from Peggy DeSanto](https://www.youtube.com/watch?v=tVSzRmnNcJ8) if you're interested in learning why condensing hives work.
@@ -22,6 +24,8 @@ tl;dr, condensing hives have:
 
 -  Extreme insulation at the top of the hive to retain heat and reduce energy consumption, with moderate insulation around the sides.
 - No upper ventilation holes. Water is collected around the sides of the inner cover for re-use within the colony, not expelled from the hive.
+
+---
 
 ## How can I make a condensing hive?
 
@@ -93,6 +97,8 @@ Done! With this build, we have achieved hive top insulation values of:
 
 The total top insulation value with respect to the deep containing the colony is around R-62, with the sides at around R-6. Perfect for a condensing hive.
 
+---
+
 ## How to manage insulated equipment throughout the year
 
 Before each winter, I simply remove each hive's existing outer cover and add the insulation deep and the insulated outer cover above their inner covers. This instantly converts them to condensing hives, and I leave them in that configuration until warmer temperatures stabilize in the spring.
@@ -104,6 +110,7 @@ You can either store the insulation deeps as-is and reinstall them in the fall, 
 > [!warning]
 > Remember to put your inner cover between the top-most box of your colony and the insulation deep - you don't want bees in your insulation box. If you forget this step, you'll probably end up with some wacky burr comb or chewed insulation. 
 
+---
 ## Cautions
 
 A few notes about what you can expect with this configuration:

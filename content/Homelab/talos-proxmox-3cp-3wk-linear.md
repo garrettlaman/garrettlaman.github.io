@@ -2,7 +2,7 @@
 title: "Learning Talos: Building a 3‑Control‑Plane / 3‑Worker Kubernetes Cluster on Proxmox (VIP + PTP)"
 description: "I moved from Rancher-managed clusters to a lightweight, declarative Talos build to avoid OS management overhead. This linear guide covers a 3‑control‑plane/3‑worker cluster on Proxmox using DHCP reservations, a floating VIP (control planes only), PTP time sync, persistent talosctl config, and clear host naming. Intel iGPU passthrough is planned as a follow‑up."
 tags: ["homelab", "kubernetes", "talos", "proxmox", "ptp", "vip", "gitops", "workers", "control-plane", "dns-dhcp"]
-date: 2025-08-24
+created: 2025-08-24
 draft: true
 ---
 
