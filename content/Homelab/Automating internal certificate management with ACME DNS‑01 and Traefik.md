@@ -1,5 +1,5 @@
 ---
-title: Automating internal certificate management with ACME DNS‑01 and Treafik
+title: Automating internal certificate management with ACME DNS‑01 and Traefik
 description: How I replaced Nginx Proxy Manager with Traefik as a load balancer/proxy and automated certificate management for internal services using ACME DNS‑01 (Cloudflare), split‑horizon DNS, and a Debian LXC—with notes on firewalling and resolver behavior.
 tags:
 - homelab
