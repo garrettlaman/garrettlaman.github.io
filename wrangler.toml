@@ -1,0 +1,8 @@
+name = "garrettlaman-site"
+compatibility_date = 2025-08-31
+
+[build]
+command = "npx quartz build"
+
+[assets]
+drectory = "./public"
