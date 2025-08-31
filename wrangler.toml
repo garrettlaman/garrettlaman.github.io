@@ -6,3 +6,6 @@ command = "npx quartz build"
 
 [assets]
 directory = "./public"
+
+[observability.logs]
+enabled = true
