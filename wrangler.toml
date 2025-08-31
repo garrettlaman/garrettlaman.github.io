@@ -5,4 +5,4 @@ compatibility_date = 2025-08-31
 command = "npx quartz build"
 
 [assets]
-drectory = "./public"
+directory = "./public"
