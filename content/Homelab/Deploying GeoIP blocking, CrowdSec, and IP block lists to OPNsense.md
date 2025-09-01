@@ -1,5 +1,6 @@
 ---
 title: "Deploying GeoIP blocking, CrowdSec, and IP block lists on OPNsense"
+description: "Practical, layered edge hardening on OPNsense: how I set up GeoIP allowlist-by-country, CrowdSec community intelligence, and a curated IP blocklist."
 tags:
   - homelab
   - how-to
