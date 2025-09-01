@@ -24,7 +24,7 @@ I decided that I wanted a reliable, low maintenance way to block malicious inbou
 
 I know what you're probably thinking - IP based blocks are not an effective way to secure the edge. And to an extent, you're right. If you implement these controls and think that your external services are "secure" because you're blocking the bad guys from reaching them, then I have a bridge to sell you.
 
-> [!IMPORTANT] IP blocks ≠ security
+> [!IMPORTANT] IP blocks ≠ comprehensive security
 > These controls reduce opportunistic noise and stop some known bads. They do **not** fix vulnerable services, weak auth, or bad segmentation. Treat them as **defense-in-depth**, not a silver bullet.
 
 IP blocking is a control best used in a larger defense-in-depth strategy. These techniques will reduce your external attack surface by making your services inaccessible to opportunistic attackers and threats that are already identified in CTI, but they are no replacement for properly hardening your edge.
@@ -82,7 +82,7 @@ You can also achieve this by adding an inverted source IP match in each NAT rule
 I checked `Firewall -> Log Files -> Live View` and observed WAN traffic from Russia already getting blocked by the rule.
 ![[Deploying GeoIP blocking, CrowdSec, and IP block lists to OPNsense-2-1.png]]
 
-With that, OPNsense was now blocking all inbound traffic from outside of the U.S.  
+With that, OPNsense was now blocking all inbound traffic sourced from outside of the U.S.  
 
 ---
 
@@ -92,7 +92,7 @@ As the name suggests, CrowdSec is a crowdsourced threat intelligence provider. E
 
 CrowdSec's free tier is fairly limited in what blocklists you can apply, but is a good starting point for anyone who is just getting into leveraging threat intel. It's extremely easy to set up on most devices, including OPNsense.
 
-The best blocklists are locked behind CrowdSec's [Platinum tier](https://www.crowdsec.net/pricing), which is targeted for businesses and costs **$900/month per blocklist**. A less expensive [Enterprise Plan](https://www.crowdsec.net/pricing#saas-enterprise) is available for **$30/month per enrolled Security Engine**, which grants access to the middle tier Premium blocklists.
+The best blocklists are locked behind CrowdSec's [Platinum tier](https://www.crowdsec.net/pricing), which is targeted for businesses and costs **\$900/month per blocklist**. A less expensive [Enterprise Plan](https://www.crowdsec.net/pricing#saas-enterprise) is available for **\$30/month per enrolled Security Engine**, which grants access to the middle tier Premium blocklists.
 
 For this write up, I'll be using the Free tier.
 
@@ -172,9 +172,7 @@ Before I could experiment with adding the bitwire-it blocklist, I needed to incr
 
 At the time of writing, the bitwire-ip blocklist has just over 1 million entries, so I would need to increase the maximum table entries by ~700,000 at a minimum. 
 
-To do this, I went to `Firewall -> Settings -> Advanced` and found the `Firewall Maximum Table Entries` setting.
-
-Since my OPNsense was only running at around ~15% memory and ~10% CPU, I felt comfortable adding another 2,000,000 entries. I entered `3000000` in the field and then clicked **Save**.
+To do this, I went to `Firewall -> Settings -> Advanced` and found the `Firewall Maximum Table Entries` setting. Since my OPNsense was only running at around ~15% memory and ~10% CPU, I felt comfortable adding another 2,000,000 entries. I entered `3000000` in the field and then clicked **Save**.
 
 ### Creating an alias and firewall rules
 
@@ -197,7 +195,7 @@ Checking the dashboard page in OPNsense, I confirmed that creating this rule whi
 I confirmed that the block rule was working as expected by opening up the firewall logs Live View and filtering for traffic handled by the bitwire rule. I could already see some traffic being dropped because the source IP matched
 ![[Deploying GeoIP blocking, CrowdSec, and IP block lists to OPNsense-16.png]]
 
-## Wrap up
+## Wrapping up
 
 With that, I had configured three different IP-based controls to reduce my external attack surface. In the future, I will also create a write up about how I use Cloudflare to implement similar controls for services that are proxied through their CDN.
 
