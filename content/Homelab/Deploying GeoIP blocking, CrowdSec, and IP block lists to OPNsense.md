@@ -126,7 +126,6 @@ Next, I enrolled the CrowdSec plugin with my CrowdSec account by providing my en
 ![[Deploying GeoIP blocking, CrowdSec, and IP block lists to OPNsense-5-1.png]]
 
 This is what my full settings page looks like. I also enabled logging for the block rules so that connections dropped by CrowdSec are logged by OPNsense.
-
 ![[Deploying GeoIP blocking, CrowdSec, and IP block lists to OPNsense-6-1.png]]
 
 Clicked **Apply** to enable CrowdSec. Next, I went to the Engines page in the CrowdSec console to accept the pending enrollment.
@@ -168,6 +167,7 @@ As a final layer of IP blocklisting, I wanted to test out configuring a web-base
 ### Increasing Maximum Firewall Table Entires
 
 Before I could experiment with adding the bitwire-it blocklist, I needed to increase the number of firewall entries that OPNsense could handle. After creating the US GeoIP alias which added around ~500,000 entries against my 1,000,000 maximum, I was running pretty low on available entries.
+
 ![[Deploying GeoIP blocking, CrowdSec, and IP block lists to OPNsense-13-1.png]]
 
 At the time of writing, the bitwire-ip blocklist has just over 1 million entries, so I would need to increase the maximum table entries by ~700,000 at a minimum. 
@@ -192,9 +192,10 @@ I created a new firewall rule on my WAN interface to block any incoming traffic 
 
 Checking the dashboard page in OPNsense, I confirmed that creating this rule which references the bitwire alias increased memory consumption by about 3%, or 241mb. For me, this isn't a problem at all since memory usage is only sitting at around 16%, but if you're pushing your OPNsense hardware closer to its limits, you may want to use caution here.
 
-I confirmed that the block rule was working as expected by opening up the firewall logs Live View and filtering for traffic handled by the bitwire rule. I could already see some traffic being dropped because the source IP matched
+I confirmed that the block rule was working as expected by opening up the firewall logs Live View and filtering for traffic handled by the bitwire rule. I could already see some traffic being dropped because the source IP matched an IP defined in the alias.
 ![[Deploying GeoIP blocking, CrowdSec, and IP block lists to OPNsense-16.png]]
 
+---
 ## Wrapping up
 
 With that, I had configured three different IP-based controls to reduce my external attack surface. In the future, I will also create a write up about how I use Cloudflare to implement similar controls for services that are proxied through their CDN.
