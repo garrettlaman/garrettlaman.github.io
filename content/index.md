@@ -1,5 +1,5 @@
 ---
-title: Welcome
+title: Garrett Laman
 description: Cybersecurity Engineer with a passion for security automation, homelab tinkering, and beekeeping.
 ---
 

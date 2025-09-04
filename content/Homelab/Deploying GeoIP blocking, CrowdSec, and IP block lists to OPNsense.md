@@ -7,7 +7,7 @@ tags:
   - opnsense
   - firewall
   - crowdsec
-modified: 2025-09-01
+modified: 2025-09-03
 created: 2025-09-01
 ---
 
@@ -163,7 +163,11 @@ It can take up to two hours for the Security Engine to update the aliases with t
 
 ## Deploying web-based IP blocklists to fill in the gaps
 
-As a final layer of IP blocklisting, I wanted to test out configuring a web-based IP blocklist within OPNsense. I poked around online and found [bitwire-it/blocklist](https://github.com/bitwire-it/ipblocklist). It's a frequently updated aggregated blocklist that pulls from numerous reputable blocklists, and is freely available on GitHub. 
+As a final layer of IP blocklisting, I wanted to test out configuring a web-based IP blocklist within OPNsense. I poked around online and found [bitwire-it/blocklist](https://github.com/bitwire-it/ipblocklist). It's an automatically updated aggregated list that pulls from numerous reputable blocklists, and is freely available on GitHub.
+
+I [forked the repo](https://github.com/garrettlaman/ipblocklist) so that I could add my own changes since the maintainers seem to have lost interest in the project. I [removed a few deprecated IP lists](https://github.com/garrettlaman/ipblocklist/commit/c8c306ad9939690f865b6a6f7daf9ff57b35475f), [added functionality to inform me of how many IP/CIDR entries were being added from each blocklist](https://github.com/garrettlaman/ipblocklist/commit/3c8b4610f39e7104f98dae335c5ba572f6e2c4dd), and then activated the [pre-built GitHub Action](https://github.com/garrettlaman/ipblocklist/blob/dev/.github/workflows/update.yml) to update the IP list every two hours.
+
+The result was an IP blocklist that updates automatically every two hours, and I have control over the forked repository so I can make any changes I want to.
 
 ### Increasing Maximum Firewall Table Entires
 
@@ -182,7 +186,7 @@ In `Firewall -> Aliases`, I created a new alias for the blocklist with the follo
 **Name**: `bitwire_ipblocklist`
 **Type**: `URL Table (IPs)`
 **Refresh Frequency**: `2 hours` (to align with the repository's update interval)
-**Content**: `https://raw.githubusercontent.com/bitwire-it/ipblocklist/refs/heads/main/inbound.txt`
+**Content**: `https://raw.githubusercontent.com/garrettlaman/ipblocklist/refs/heads/dev/inbound.txt`
 **Description**: `bitwire-it/blocklist`
 
 After creating the alias, I immediately noticed that my table entry usage had increased dramatically as expected, because the bitwire blocklist is just over 1 million entries.
