@@ -2,10 +2,10 @@
 title: "Deploying a Talos k8s cluster on Proxmox"
 description: "I deployed a lightweight, declarative Talos cluster on Proxmox to cut down on OS management overhead. These are the steps I took and commands I used."
 tags:
-  - "homelab"
-  - "kubernetes"
-  - "talos"
-  - "proxmox"
+  - homelab
+  - kubernetes
+  - talos
+  - proxmox
 created: 2025-09-14
 ---
 
@@ -322,7 +322,7 @@ dev-talos-wk03   Ready    <none>          69s     v1.33.3
 
 ---
 
-## Quick Command Summary
+## Command summary
 
 ```bash
 # Install Homebrew for Linux and add it to the shell environment
@@ -343,7 +343,6 @@ talosctl gen config $CLUSTER https://$VIP:6443 --install-disk /dev/sda --install
 
 # Build common files
 talosctl machineconfig patch controlplane.yaml --patch @patch-common-cp.yaml -o controlplane.common.yaml
-
 talosctl machineconfig patch worker.yaml --patch @patch-common-wk.yaml -o worker.common.yaml
 
 # Move talos config file to its expected directory
