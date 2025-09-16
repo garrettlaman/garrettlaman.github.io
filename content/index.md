@@ -16,10 +16,10 @@ When I'm not diving into security or automation, I keep bees 🐝 and maintain a
 ### 🚀 What you'll find here
 
 This site is where I document:
-- 🛠️ My homelab builds and experiments  
+- 🛠️ My [homelab](https://www.garrettlaman.com/Homelab/) builds and experiments  
 - 🔒 Cybersecurity insights and projects  
 - 📝 Notes, tutorials, and automation ideas  
-- 🌱 Occasional updates from my beekeeping hobby  
+- 🌱 Occasional updates from my [beekeeping hobby](https://www.garrettlaman.com/Beekeeping/)  
 
 Stay tuned - I'm always adding new write-ups and resources.
 

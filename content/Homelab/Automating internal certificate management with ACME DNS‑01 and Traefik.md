@@ -59,11 +59,11 @@ I run an internal zone such as `internal.<yourdomain.tld>` (my actual domain omi
 - **LAN clients** look up `*.internal.<yourdomain.tld>` in **Technitium**, which returns private addresses (e.g., the Traefik LXC at `10.10.103.100`).  
 - **ACME validation** happens through **Cloudflare**: Traefik (via the lego client) uses the Cloudflare API to create ephemeral **`_acme-challenge` TXT** records when a certificate is requested or renewed. No internal services are exposed to the internet for this to work. This is called a [DNS-01 challenge](https://letsencrypt.org/docs/challenge-types/#dns-01-challenge).
 
-### Important nuance: certificates are **per host**, not wildcard
+### Important nuance: certificates are per host, not wildcard
 
 In this setup, Traefik issues **host‑specific** certificates 1:1 with the hostnames I define in my Traefik config (routers). That is intentional here. If I define a router for `app.internal.<yourdomain.tld>`, Traefik requests a cert **for that exact FQDN**. If I later add `app2.internal.<yourdomain.tld>`, it will obtain another cert for that FQDN on first use.
 
-I originally expected to use a wildcard, but after inspecting the issued certs I confirmed Traefik was requesting **single‑host** certs based on the router rules—and I kept it that way. I like the blast‑radius isolation: revoking or rotating a cert impacts exactly one service.
+I originally expected to use a wildcard, but after inspecting the issued certs I confirmed Traefik was requesting **single‑host** certs based on the router rules - and I kept it that way. I like the blast‑radius isolation: revoking or rotating a cert impacts exactly one service.
 
 ---
 

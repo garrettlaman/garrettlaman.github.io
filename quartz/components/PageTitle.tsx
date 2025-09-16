@@ -23,9 +23,9 @@ PageTitle.css = `
   font-family: var(--titleFont);
 }
 .Icon {
-  max-height: 125px;
+  max-height: 75px;
   min-height: 25px;
-  max-width: 125px;
+  max-width: 75px;
   mid-width: 25px;
   display: block;
   margin: auto;
