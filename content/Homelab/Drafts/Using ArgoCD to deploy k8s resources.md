@@ -7,6 +7,7 @@ tags:
   - gitops
 created: 2025-09-22
 modified:
+draft: true
 ---
 
 ## Resources
