@@ -74,6 +74,7 @@ export WK3=10.10.104.203
 ```
 
 ---
+
 ## Downloading the Talos installation media
 
 Grabbing an ISO file works a bit differently in Talos than it does in other Linux distributions. In Talos, because the OS is largely immutable and configured through YAML, adding packages after installation isn't supported. Instead, Sidero Labs makes an "[Image Factory](https://factory.talos.dev/)" available, where versions of the installation media with different system extensions and packages are available to download.
@@ -177,6 +178,7 @@ This created:
 Created two small patches to apply to the generated templates - one to enable DHCP and VIP functionality on the Control Plane nodes, and one to enable DHCP on the Worker nodes.
 
 Patches are a way that you can modify a `machineconfig` file without completely rewriting it. Check out the Talos documentation for more info on how these work: [Configuration Patches](https://www.talos.dev/v1.11/talos-guides/configuration/patching/)
+
 **`patch-common-cp.yaml`** — control‑plane network (DHCP) + VIP + install disk
 ```yaml
 machine:
